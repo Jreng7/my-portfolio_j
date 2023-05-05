@@ -15,7 +15,7 @@ export default function MainHeader() {
                     Josué Ribeiro
                 </Text>
                 <Text as="div" variant="xs" className="text-gray-500 italic -mt-0.5">
-                    FullStack@Jrway Developer
+                    Developer Fullstack @2023/Jrway
                 </Text>
             </div>
         </div>
