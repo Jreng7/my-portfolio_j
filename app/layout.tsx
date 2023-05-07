@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 
-import MainHeader from '@/src/shared/components/main-header';
+import MainHeader from '@/src/shared/components/header';
 import '@thonlabs/ui/core/base.css';
 
 type Props = {
@@ -17,7 +17,7 @@ export default function Index({children}: Props) {
             <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet" />
         </head>
         <body>
-            <MainHeader />
+            <Header />
             {children}
         </body>
     </html>

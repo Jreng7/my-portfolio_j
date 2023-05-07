@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import { Text } from 'thon-ui';
+import { Text } from '@thonlabs/ui';
 import profilePicture from './assets/perfil-josue.png';
 
-export default function MainHeader() {
+export default function Header() {
     return (
         <header className={`
                 w-full h-screen lg:w-[26.5rem] xl:w-[34.25rem]
