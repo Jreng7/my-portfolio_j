@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-page-custom-font */
 
+import React from 'react';
+import '@thonlabs/ui/core/base.css';    
+import '../src/homepage/css/homepage.css';
 import Header from '@/src/shared/components/header';
 import Footer from '@/src/shared/components/footer';
-import '@thonlabs/ui/core/base.css';
 
 type Props = {
     children: React.ReactNode;
@@ -20,7 +22,7 @@ export default function Index({children}: Props) {
 
         <body className="lg:grid lg:grid-cols-[26.5rem_1fr] xl:grid-cols-[34.25rem_1fr]">
             <Header />
-            <main>
+            <main className="p-10">
                 {children}
                 <Footer />
             </main>

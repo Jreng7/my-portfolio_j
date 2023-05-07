@@ -1,0 +1,4 @@
+
+main > div {
+    @apply h-[calc(100%-3.563rem)];
+}

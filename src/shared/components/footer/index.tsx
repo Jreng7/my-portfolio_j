@@ -5,7 +5,13 @@ export default function Footer(){
      const linkClassName = 'text-gray-500 hover:text-gray-800 transition-all duration-200ms ease-in-out'
 
     return (
-        <footer className="flex justify-between items-center">
+        <footer className={`
+            flex justify-between 
+            items-center pt-4 border-t 
+            border-solid
+            border-t-gray-200
+
+            `}>
             <div className="flex flex-col">
                 <Text className="text-gray-800 italic font-black">Jo!</Text>
                 <Text variant="xs" className="text-gray-500">josue@jacriber.io | 2023</Text>
