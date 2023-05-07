@@ -1,7 +1,4 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "quotes": [2, "single"]
-  }
+  "extends": "next/core-web-vitals"
 }
 
