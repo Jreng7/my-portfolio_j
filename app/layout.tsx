@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 
-import MainHeader from '@/src/shared/components/header';
+import Header from '@/src/shared/components/header';
+import Footer from '@/src/shared/components/footer';
 import '@thonlabs/ui/core/base.css';
 
 type Props = {
@@ -16,9 +17,14 @@ export default function Index({children}: Props) {
             <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet" />
         </head>
-        <body>
+
+        <body className="lg:grid lg:grid-cols-[26.5rem_1fr] xl:grid-cols-[34.25rem_1fr]">
             <Header />
-            {children}
+            <main>
+                {children}
+                <Footer />
+            </main>
         </body>
+
     </html>
 }

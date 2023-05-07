@@ -5,7 +5,7 @@ import profilePicture from './assets/perfil-josue.png';
 export default function Header() {
     return (
         <header className={`
-                w-full h-screen lg:w-[26.5rem] xl:w-[34.25rem]
+                lg:h-screen
                 pt-8 pb-6 px-7 lg:pt-0 lg:pb-0
                 flex flex-col justify-center items-center 
                 bg-gray-100
@@ -14,7 +14,7 @@ export default function Header() {
 
             <div className='flex gap-4 items-center'>
                 <Image 
-                    src={profilePicture} 
+                    src={profilePicture}    
                     alt="Foto de perfil Josué Ribeiro Jacinto"
                     className='lg:mr-2'
                 />
