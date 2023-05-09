@@ -2,8 +2,8 @@
 
 import React from 'react';
 import '@thonlabs/ui/core/base.css';    
-import Header from '@/src/shared/components/header';
-import Footer from '@/src/shared/components/footer';
+import Header from '@/src/components/header';
+import Footer from '@/src/components/footer';
 
 type Props = {
     children: React.ReactNode;
