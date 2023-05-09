@@ -23,8 +23,9 @@ export default function Index({children}: Props) {
             <Header />
             <main className="p-10">
                 {children}
-                <Footer />
+               
             </main>
+            <Footer />
         </body>
 
     </html>
