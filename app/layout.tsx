@@ -2,7 +2,6 @@
 
 import React from 'react';
 import '@thonlabs/ui/core/base.css';    
-import '../src/homepage/css/homepage.css';
 import Header from '@/src/shared/components/header';
 import Footer from '@/src/shared/components/footer';
 

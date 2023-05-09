@@ -10,7 +10,7 @@ export default function Footer(){
             items-center pt-4 border-t 
             border-solid
             border-t-gray-200
-
+            h-full
             `}>
             <div className="flex flex-col">
                 <Text className="text-gray-800 italic font-black">Jo!</Text>
